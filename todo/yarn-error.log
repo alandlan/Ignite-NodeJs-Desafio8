@@ -1,0 +1,64 @@
+Arguments: 
+  /home/alan/.nvm/versions/node/v12.14.0/bin/node /usr/share/yarn/bin/yarn.js add uuid
+
+PATH: 
+  /home/alan/.serverless/bin:/home/alan/.serverless/bin:/home/alan/anaconda3/bin:/home/alan/anaconda3/condabin:/home/alan/.nvm/versions/node/v12.14.0/bin:/home/alan/.serverless/bin:/home/alan/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/home/alan/.dotnet/tools:/home/alan/Android/Sdk/emulator:/home/alan/Android/Sdk/tools:/home/alan/Android/Sdk/tools/bin:/home/alan/Android/Sdk/platform-tools:/home/alan/android-studio/bin:/home/alan/Android/Sdk/emulator:/home/alan/Android/Sdk/tools:/home/alan/Android/Sdk/tools/bin:/home/alan/Android/Sdk/platform-tools:/home/alan/android-studio/bin:/home/alan/Android/Sdk/emulator:/home/alan/Android/Sdk/tools:/home/alan/Android/Sdk/tools/bin:/home/alan/Android/Sdk/platform-tools:/home/alan/android-studio/bin
+
+Yarn version: 
+  1.22.5
+
+Node version: 
+  12.14.0
+
+Platform: 
+  linux x64
+
+Trace: 
+  SyntaxError: /home/alan/Cursos/Rocketseat/Ignite/nodeJS/Ignite-NodeJs-Desafio8/todo/package.json: Unexpected token } in JSON at position 387
+      at JSON.parse (<anonymous>)
+      at /usr/share/yarn/lib/cli.js:1625:59
+      at Generator.next (<anonymous>)
+      at step (/usr/share/yarn/lib/cli.js:310:30)
+      at /usr/share/yarn/lib/cli.js:321:13
+
+npm manifest: 
+  {
+    "name": "todo",
+    "version": "1.0.0",
+    "description": "Serverless aws-nodejs-typescript template",
+    "main": "serverless.ts",
+    "scripts": {
+      "test": "echo \"Error: no test specified\" && exit 1"
+    },
+    "engines": {
+      "node": ">=14.15.0"
+    },
+    "dependencies": {
+      "@middy/core": "^1.5.2",
+      "@middy/http-json-body-parser": "^1.5.2",
+      "source-map-support": "^0.5.19",
+    },
+    "devDependencies": {
+      "@serverless/typescript": "^2.23.0",
+      "@types/aws-lambda": "^8.10.71",
+      "@types/node": "^14.14.25",
+      "json-schema-to-ts": "^1.5.0",
+      "serverless": "^2.23.0",
+      "serverless-webpack": "^5.3.5",
+      "ts-loader": "^8.0.15",
+      "ts-node": "^9.1.1",
+      "tsconfig-paths": "^3.9.0",
+      "tsconfig-paths-webpack-plugin": "^3.3.0",
+      "typescript": "^4.1.3",
+      "webpack": "^5.20.2",
+      "webpack-node-externals": "^2.5.2"
+    },
+    "author": "The serverless webpack authors (https://github.com/elastic-coders/serverless-webpack)",
+    "license": "MIT"
+  }
+
+yarn manifest: 
+  No manifest
+
+Lockfile: 
+  No lockfile
